@@ -15,28 +15,25 @@ export const AboutSection = () => {
           <div className="relative box-border caret-transparent basis-auto shrink max-w-none w-full px-[15px] md:basis-6/12 md:shrink-0 md:max-w-[50%]">
             <div className="box-border caret-transparent">
               <h1 className="text-white text-base font-bold bg-neutral-700 border-b-neutral-400 box-border caret-transparent inline-block leading-[19.2px] mb-[18px] px-[15px] py-3 border-t-white border-b-4 border-x-white font-poppins md:text-xl md:leading-6">
-                Book your cab with confidence
+                Your trusted travel partner
               </h1>
               <h2 className="text-[45px] font-light box-border caret-transparent leading-[54px] mb-5 font-poppins md:text-6xl md:leading-[72px]">
-                ABOUT US
+                ABOUT 13 MELBOURNE CABS
               </h2>
               <div className="box-border caret-transparent w-full mb-[33px]">
                 <p className="text-neutral-700 box-border caret-transparent text-justify mb-4">
-                  Experience Business Class Travel with 13 Melbourne Cab We are committed to providing Victorians with 
-									a premium transport experience. Based in Dandenong, we offer a "business class" level of service, ensuring every 
-									journey is comfortable, punctual, and seamless. While we are a fresh face in the industry, our reputation is growing 
-									rapidly thanks to the incredible feedback from our local clients.
+                  Welcome to 13 Melbourne Cabs, your premier choice for reliable and professional taxi services across Melbourne's southeast suburbs. We specialize in providing business-class transportation that combines comfort, punctuality, and exceptional customer service. Operating 24/7 from our Dandenong base, we serve the entire Melbourne metropolitan area with a modern fleet and experienced drivers. Whether you need an airport transfer, corporate travel, or local transportation, our commitment to excellence ensures every journey meets the highest standards of safety and comfort.
                 </p>
                 <a
-                  href="https://www.13dandenongtaxi24.com.au/about.html"
-                  className="text-neutral-700 box-border caret-transparent inline-block text-right w-full hover:text-yellow-400 hover:border-yellow-400"
+                  href="#services"
+                  className="text-neutral-700 box-border caret-transparent inline-block text-right w-full hover:text-yellow-400 hover:border-yellow-400 transition-colors"
                 >
-                  Read more....
+                  Discover our services
                 </a>
               </div>
               <a
-                href="https://www.13dandenongtaxi24.com.au/book-online.php"
-                className="text-white text-[22px] font-bold bg-yellow-400 box-border caret-transparent inline-block leading-[33px] text-center w-full my-5 px-5 py-2 rounded-[10px] md:w-auto md:my-0"
+                href="#booking"
+                className="text-white text-[22px] font-bold bg-yellow-400 box-border caret-transparent inline-block leading-[33px] text-center w-full my-5 px-5 py-2 rounded-[10px] md:w-auto md:my-0 hover:bg-yellow-500 transition-colors"
               >
                 Book Now
               </a>

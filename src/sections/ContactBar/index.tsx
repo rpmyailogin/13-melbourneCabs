@@ -18,11 +18,11 @@ export const ContactBar = () => {
             <div className="relative box-border caret-transparent basis-auto shrink max-w-none text-center w-full md:basis-6/12 md:shrink-0 md:max-w-[50%]">
               <div className="bg-[linear-gradient(90deg,rgb(248,191,16)_0%,rgb(255,190,0)_100%)] box-border caret-transparent pt-[15px] pb-2.5 rounded-br-[119px]">
                 <a
-                  href="https://www.13dandenongtaxi24.com.au/book-online.php"
-                  className="text-white text-3xl box-border caret-transparent inline-block leading-[45px]"
+                  href="#booking"
+                  className="text-white text-3xl box-border caret-transparent inline-block leading-[45px] hover:text-gray-200 transition-colors"
                 >
                   <i className="box-border caret-transparent inline-block leading-[30px] font-fontawesome before:accent-auto before:box-border before:caret-transparent before:text-white before:text-3xl before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-disc before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-fontawesome"></i>
-                  Booking Taxi
+                  Book Online
                 </a>
               </div>
             </div>
@@ -35,16 +35,16 @@ export const ContactBar = () => {
             <div className="box-border caret-transparent">
               <div className="box-border caret-transparent p-5">
               <h2 className="text-white text-[21px] font-bold box-border caret-transparent leading-[27.3px] mb-[50px] pt-[50px] font-poppins md:text-3xl md:leading-[39px]">
-                Taxi Services In Melbourne 24/7
+                Premium Melbourne Taxi Service - 24/7
               </h2>
                 <h3 className="text-white text-[19px] font-semibold box-border caret-transparent leading-[22.8px] mb-2 font-poppins md:text-[29px] md:leading-[34.8px]">
-                  We Provide Taxi For All Your Need &amp; Melbourne
+                  Professional Transportation Solutions Across Melbourne
                 </h3>
                 <a
-                  href="https://www.13dandenongtaxi24.com.au/book-online.php"
-                  className="text-white text-3xl bg-yellow-400 box-border caret-transparent inline-block leading-[45px] text-center my-5 px-9 py-[7px] rounded-[15px]"
+                  href="#booking"
+                  className="text-white text-3xl bg-yellow-400 box-border caret-transparent inline-block leading-[45px] text-center my-5 px-9 py-[7px] rounded-[15px] hover:bg-yellow-500 transition-colors"
                 >
-                  Order Cab Now
+                  Book Your Ride
                 </a>
               </div>
             </div>
@@ -55,7 +55,7 @@ export const ContactBar = () => {
                 <div className="box-border caret-transparent flex flex-wrap ml-[-15px] mr-[-15px]">
                   <div className="relative bg-yellow-500 box-border caret-transparent basis-auto shrink max-w-none text-center w-full mb-[30px] px-2.5 py-5 md:basis-full md:shrink-0 md:max-w-full">
                     <h2 className="text-[27px] font-bold box-border caret-transparent leading-[32.4px] uppercase mb-2 font-poppins">
-                      Book a Cab Online
+                      Book Your Ride with 13 Melbourne Cabs
                     </h2>
                   </div>
                   <div className="relative box-border caret-transparent basis-auto shrink max-w-none w-full px-[15px] md:basis-3/12 md:shrink-0 md:max-w-[25%]">
@@ -93,16 +93,16 @@ export const ContactBar = () => {
                         className="text-zinc-600 bg-clip-padding bg-gray-200 caret-transparent block h-[38px] leading-[normal] text-start w-full border-gray-300 px-3 py-1.5 rounded-bl rounded-br rounded-tl rounded-tr"
                       >
                         <option
-                          value="Normal Sedan"
+                          value="Standard Sedan"
                           className="items-center box-border caret-transparent gap-x-2 min-h-6 min-w-6 gap-y-2"
                         >
-                          Normal Sedan
+                          Standard Sedan
                         </option>
                         <option
-                          value="Premium Cab"
+                          value="Silver Sedan"
                           className="items-center box-border caret-transparent gap-x-2 min-h-6 min-w-6 gap-y-2"
                         >
-                          Premium Cab
+                          Silver Sedan
                         </option>
                         <option
                           value="SUV/ Station wagon (For Extra Luggage)"
@@ -111,10 +111,10 @@ export const ContactBar = () => {
                           SUV/ Station wagon (For Extra Luggage)
                         </option>
                         <option
-                          value="Van Taxi (5 - 11 Passengers)"
+                          value="Maxi Van (5 - 11 Passengers)"
                           className="items-center box-border caret-transparent gap-x-2 min-h-6 min-w-6 gap-y-2"
                         >
-                          Van Taxi (5 - 11 Passengers)
+                          Maxi Van (5 - 11 Passengers)
                         </option>
                       </select>
                     </div>

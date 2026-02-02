@@ -5,77 +5,77 @@ export const Footer = () => {
     <div className="bg-neutral-800 box-border caret-transparent w-full mx-auto p-[30px]">
       <div className="box-border caret-transparent flex flex-wrap ml-[-15px] mr-[-15px]">
         <FooterColumn
-          title="Links"
+          title="Quick Links"
           items={[
-            { text: "Home", href: "https://www.13dandenongtaxi24.com.au/" },
+            { text: "Home", href: "#home" },
             {
               text: "About Us",
-              href: "https://www.13dandenongtaxi24.com.au/about.html",
+              href: "#about",
             },
             {
-              text: "Fleet",
-              href: "https://www.13dandenongtaxi24.com.au/our-fleet.html",
+              text: "Our Fleet",
+              href: "#fleet",
             },
             {
-              text: "Areas",
-              href: "https://www.13dandenongtaxi24.com.au/areas-we-serve.php",
+              text: "Service Areas",
+              href: "#areas",
             },
             {
               text: "Services",
-              href: "https://www.13dandenongtaxi24.com.au/our-service.html",
+              href: "#services",
             },
             {
               text: "Book Now",
-              href: "https://www.13dandenongtaxi24.com.au/book-online.php",
+              href: "#booking",
             },
             {
-              text: "Contact us",
-              href: "https://www.13dandenongtaxi24.com.au/contact-us.html",
-            },
-          ]}
-        />
-        <FooterColumn
-          title="Services"
-          items={[
-            {
-              text: "Parcels Delivery",
-              href: "https://www.13dandenongtaxi24.com.au/our-service.html",
-            },
-            {
-              text: "Airport Delivery",
-              href: "https://www.13dandenongtaxi24.com.au/our-service.html",
-            },
-            {
-              text: "Melbourne Cab Services",
-              href: "https://www.13dandenongtaxi24.com.au/our-service.html",
-            },
-            {
-              text: "Corporate Travel",
-              href: "https://www.13dandenongtaxi24.com.au/our-service.html",
+              text: "Contact Us",
+              href: "#contact",
             },
           ]}
         />
         <FooterColumn
-          title="Contact Details"
+          title="Our Services"
           items={[
-            { text: "0481481078", href: "tel://0481481078" },
             {
-              text: "mail@dandenongtaxicabs.com",
-              href: "mailto://mail@dandenongtaxicabs.com",
+              text: "Express Parcel Delivery",
+              href: "#services",
+            },
+            {
+              text: "Airport Transfers",
+              href: "#services",
+            },
+            {
+              text: "Premium Cab Service",
+              href: "#services",
+            },
+            {
+              text: "Corporate & Event Travel",
+              href: "#services",
             },
           ]}
         />
         <FooterColumn
-          title="GET FREE ESTIMATE"
+          title="Contact 13 Melbourne Cabs"
+          items={[
+            { text: "0481 481 078", href: "tel://0481481078" },
+            {
+              text: "info@13melbournecabs.com.au",
+              href: "mailto://info@13melbournecabs.com.au",
+            },
+          ]}
+        />
+        <FooterColumn
+          title="BOOK YOUR RIDE NOW"
           items={[
             {
-              text: "0481481078",
+              text: "0481 481 078",
               href: "tel://0481481078",
               icon: "font-normal box-border caret-transparent inline-block leading-[30px] font-fontawesome before:accent-auto before:box-border before:caret-transparent before:text-white before:text-3xl before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-disc before:pointer-events-auto before:text-left before:indent-[0px] before:normal-case before:visible before:border-separate before:font-fontawesome",
             },
           ]}
           variant="estimate"
-          description=" Our online scheduling and payment system is safe."
+          description="Secure online booking and payment system available 24/7."
         />
       </div>
       <div className="relative box-border caret-transparent basis-auto shrink max-w-none text-center w-full px-[15px] md:basis-full md:shrink-0 md:max-w-full">

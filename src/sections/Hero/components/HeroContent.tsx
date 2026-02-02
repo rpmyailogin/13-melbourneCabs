@@ -4,16 +4,16 @@ export const HeroContent = () => {
       <div className="box-border caret-transparent">
         <div className="box-border caret-transparent p-5">
           <h2 className="text-white text-[21px] font-bold box-border caret-transparent leading-[27.3px] mb-[50px] pt-[50px] font-poppins md:text-3xl md:leading-[39px]">
-            Taxi Services In Melbourne 24/7
+            Premium Taxi Services Across Melbourne 24/7
           </h2>
           <h3 className="text-white text-[19px] font-semibold box-border caret-transparent leading-[22.8px] mb-2 font-poppins md:text-[29px] md:leading-[34.8px]">
-            Most Trusted Taxi Service in Dandenong &amp; Melbourne
+            Melbourne's Most Reliable Cab Service - Available Anytime, Anywhere
           </h3>
           <a
-            href="https://www.13dandenongtaxi24.com.au/book-online.php"
-            className="text-white text-3xl bg-yellow-400 box-border caret-transparent inline-block leading-[45px] text-center my-5 px-9 py-[7px] rounded-[15px]"
+            href="#booking"
+            className="text-white text-3xl bg-yellow-400 box-border caret-transparent inline-block leading-[45px] text-center my-5 px-9 py-[7px] rounded-[15px] hover:bg-yellow-500 transition-colors"
           >
-            Order Cab Now
+            Book Your Ride
           </a>
         </div>
       </div>

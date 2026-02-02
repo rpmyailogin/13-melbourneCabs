@@ -15,16 +15,16 @@ export const CallToAction = () => {
           <div className="relative box-border caret-transparent basis-auto shrink max-w-none w-full px-[15px] md:basis-[66.6667%] md:shrink-0 md:max-w-[66.6667%]">
             <div className="box-border caret-transparent">
               <h3 className="text-black text-xl font-semibold box-border caret-transparent tracking-[0.5px] leading-6 text-center uppercase mt-2.5 mb-[5px] md:text-[40px] md:leading-[48px]">
-                Call US /
+                Need a Ride? /
                 <span className="text-white text-xl box-border caret-transparent leading-6 md:text-[40px] md:leading-[48px]">
                   {" "}
-                  24 Hours Service
+                  Available 24/7
                 </span>
               </h3>
               <h1 className="text-black text-[45px] font-bold box-border caret-transparent leading-[54px] text-center md:text-[95px] md:leading-[114px]">
                 <a
                   href="tel://0481481078"
-                  className="text-gray-700 text-[45px] box-border caret-transparent inline-block leading-[54px] md:text-[95px] md:leading-[114px] hover:text-white hover:border-white"
+                  className="text-gray-700 text-[45px] box-border caret-transparent inline-block leading-[54px] md:text-[95px] md:leading-[114px] hover:text-white hover:border-white transition-colors"
                 >
                   0481 481 078
                 </a>
