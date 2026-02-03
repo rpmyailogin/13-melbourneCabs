@@ -14,7 +14,7 @@ export const AboutSection = () => {
           </div>
           <div className="relative box-border caret-transparent basis-auto shrink max-w-none w-full px-[15px] md:basis-6/12 md:shrink-0 md:max-w-[50%]">
             <div className="box-border caret-transparent">
-              <h1 className="text-white text-base font-bold bg-neutral-700 border-b-neutral-400 box-border caret-transparent inline-block leading-[19.2px] mb-[18px] px-[15px] py-3 border-t-white border-b-4 border-x-white font-poppins md:text-xl md:leading-6">
+              <h1 className="text-blue-600 text-base font-bold bg-white border-b-orange-500 box-border caret-transparent inline-block leading-[19.2px] mb-[18px] px-[15px] py-3 border-t-white border-b-4 border-x-white font-poppins md:text-xl md:leading-6">
                 Your trusted travel partner
               </h1>
               <h2 className="text-[45px] font-light box-border caret-transparent leading-[54px] mb-5 font-poppins md:text-6xl md:leading-[72px]">
