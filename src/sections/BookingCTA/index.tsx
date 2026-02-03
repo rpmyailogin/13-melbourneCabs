@@ -1,6 +1,6 @@
 export const BookingCTA = () => {
   return (
-    <section className="bg-yellow-400 box-border caret-transparent inline-block text-center w-full mt-[50px] px-2.5 py-10">
+    <section className="bg-blue-600 box-border caret-transparent inline-block text-center w-full mt-[50px] px-2.5 py-10">
       <div className="box-border caret-transparent max-w-[1170px] w-full mx-auto px-[15px]">
         <div className="box-border caret-transparent flex flex-wrap ml-[-15px] mr-[-15px]">
           <div className="relative box-border caret-transparent basis-auto shrink max-w-none w-full px-[15px] md:basis-full md:shrink-0 md:max-w-full">
@@ -12,7 +12,7 @@ export const BookingCTA = () => {
             </p>
             <a
               href="tel://0481481078"
-              className="text-white text-[23px] bg-black box-border caret-transparent inline-block leading-[34.5px] border px-[60px] py-[15px] rounded-[10px] border-solid border-white md:text-[33px] md:leading-[49.5px] hover:text-yellow-400 hover:border-yellow-400 transition-colors"
+              className="text-white text-[23px] bg-orange-500 box-border caret-transparent inline-block leading-[34.5px] border px-[60px] py-[15px] rounded-[10px] border-solid border-white md:text-[33px] md:leading-[49.5px] hover:bg-orange-600 hover:border-orange-200 transition-colors"
             >
               <i className="text-[23px] box-border caret-transparent inline-block leading-[23px] font-fontawesome md:text-[33px] md:leading-[33px] before:accent-auto before:box-border before:caret-transparent before:text-white before:text-[23px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[23px] before:list-outside before:list-disc before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-fontawesome before:md:text-[33px] before:md:leading-[33px]"></i>
               0481 481 078

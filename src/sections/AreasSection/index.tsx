@@ -36,13 +36,13 @@ export const AreasSection = () => {
           {areas.map((area, index) => (
             <div
               key={index}
-              className="group relative bg-white rounded-xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-yellow-400 hover:-translate-y-1"
+              className="group relative bg-white rounded-xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-orange-400 hover:-translate-y-1"
             >
               <div className="flex items-center gap-3">
-                <div className="flex-shrink-0 w-10 h-10 bg-yellow-400 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <MapPin className="w-5 h-5 text-gray-900" />
+                <div className="flex-shrink-0 w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <MapPin className="w-5 h-5 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-yellow-600 transition-colors duration-300">
+                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-orange-600 transition-colors duration-300">
                   {area}
                 </h3>
               </div>
@@ -56,7 +56,7 @@ export const AreasSection = () => {
           </p>
           <a
             href="#contact"
-            className="inline-block bg-yellow-400 text-gray-900 font-semibold px-8 py-3 rounded-lg hover:bg-yellow-500 transition-colors duration-300 shadow-md hover:shadow-lg"
+            className="inline-block bg-orange-500 text-white font-semibold px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors duration-300 shadow-md hover:shadow-lg"
           >
             Contact Us
           </a>

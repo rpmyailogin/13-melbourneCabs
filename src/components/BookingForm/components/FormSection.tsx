@@ -6,8 +6,8 @@ export const FormSection = (props: FormSectionProps) => {
   if (props.variant === "header") {
     return (
       <div className="box-border caret-transparent flex flex-wrap ml-[-15px] mr-[-15px]">
-        <div className="relative box-border caret-transparent basis-auto shrink max-w-none w-full md:shrink-0 bg-yellow-500 text-center mb-[30px] px-2.5 py-5 md:basis-full md:max-w-full">
-          <h2 className="text-[27px] font-bold box-border caret-transparent leading-[32.4px] uppercase mb-2 font-poppins">
+        <div className="relative box-border caret-transparent basis-auto shrink max-w-none w-full md:shrink-0 bg-blue-600 text-center mb-[30px] px-2.5 py-5 md:basis-full md:max-w-full">
+          <h2 className="text-white text-[27px] font-bold box-border caret-transparent leading-[32.4px] uppercase mb-2 font-poppins">
             Book a Cab Online
           </h2>
         </div>
@@ -222,7 +222,7 @@ export const FormSection = (props: FormSectionProps) => {
         <div className="box-border caret-transparent text-center w-full">
           <button
             type="submit"
-            className="text-white text-[15px] font-bold bg-yellow-400 caret-transparent leading-[22.5px] px-[30px] py-[9px] rounded-[10px]"
+            className="text-white text-[15px] font-bold bg-orange-500 caret-transparent leading-[22.5px] px-[30px] py-[9px] rounded-[10px] hover:bg-orange-600 transition-colors"
           >
             Book Now
           </button>

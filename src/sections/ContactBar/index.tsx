@@ -16,7 +16,7 @@ export const ContactBar = () => {
               </div>
             </div>
             <div className="relative box-border caret-transparent basis-auto shrink max-w-none text-center w-full md:basis-6/12 md:shrink-0 md:max-w-[50%]">
-              <div className="bg-[linear-gradient(90deg,rgb(248,191,16)_0%,rgb(255,190,0)_100%)] box-border caret-transparent pt-[15px] pb-2.5 rounded-br-[119px]">
+              <div className="bg-[linear-gradient(90deg,rgb(249,115,22)_0%,rgb(234,88,12)_100%)] box-border caret-transparent pt-[15px] pb-2.5 rounded-br-[119px]">
                 <a
                   href="#booking"
                   className="text-white text-3xl box-border caret-transparent inline-block leading-[45px] hover:text-gray-200 transition-colors"
@@ -42,7 +42,7 @@ export const ContactBar = () => {
                 </h3>
                 <a
                   href="#booking"
-                  className="text-white text-3xl bg-yellow-400 box-border caret-transparent inline-block leading-[45px] text-center my-5 px-9 py-[7px] rounded-[15px] hover:bg-yellow-500 transition-colors"
+                  className="text-white text-3xl bg-orange-500 box-border caret-transparent inline-block leading-[45px] text-center my-5 px-9 py-[7px] rounded-[15px] hover:bg-orange-600 transition-colors"
                 >
                   Book Your Ride
                 </a>
@@ -53,8 +53,8 @@ export const ContactBar = () => {
             <div className="bg-white box-border caret-transparent mt-[50px] mb-[150px] p-[30px]">
               <form className="box-border caret-transparent">
                 <div className="box-border caret-transparent flex flex-wrap ml-[-15px] mr-[-15px]">
-                  <div className="relative bg-yellow-500 box-border caret-transparent basis-auto shrink max-w-none text-center w-full mb-[30px] px-2.5 py-5 md:basis-full md:shrink-0 md:max-w-full">
-                    <h2 className="text-[27px] font-bold box-border caret-transparent leading-[32.4px] uppercase mb-2 font-poppins">
+                  <div className="relative bg-blue-600 box-border caret-transparent basis-auto shrink max-w-none text-center w-full mb-[30px] px-2.5 py-5 md:basis-full md:shrink-0 md:max-w-full">
+                    <h2 className="text-white text-[27px] font-bold box-border caret-transparent leading-[32.4px] uppercase mb-2 font-poppins">
                       Book Your Ride with 13 Melbourne Cabs
                     </h2>
                   </div>
@@ -260,7 +260,7 @@ export const ContactBar = () => {
                     <div className="box-border caret-transparent text-center w-full">
                       <button
                         type="submit"
-                        className="text-white text-[15px] font-bold bg-yellow-400 caret-transparent leading-[22.5px] px-[30px] py-[9px] rounded-[10px]"
+                        className="text-white text-[15px] font-bold bg-orange-500 caret-transparent leading-[22.5px] px-[30px] py-[9px] rounded-[10px] hover:bg-orange-600 transition-colors"
                       >
                         Book Now
                       </button>

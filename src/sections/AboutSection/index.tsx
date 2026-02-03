@@ -26,14 +26,14 @@ export const AboutSection = () => {
                 </p>
                 <a
                   href="#services"
-                  className="text-neutral-700 box-border caret-transparent inline-block text-right w-full hover:text-yellow-400 hover:border-yellow-400 transition-colors"
+                  className="text-neutral-700 box-border caret-transparent inline-block text-right w-full hover:text-orange-500 transition-colors"
                 >
                   Discover our services
                 </a>
               </div>
               <a
                 href="#booking"
-                className="text-white text-[22px] font-bold bg-yellow-400 box-border caret-transparent inline-block leading-[33px] text-center w-full my-5 px-5 py-2 rounded-[10px] md:w-auto md:my-0 hover:bg-yellow-500 transition-colors"
+                className="text-white text-[22px] font-bold bg-orange-500 box-border caret-transparent inline-block leading-[33px] text-center w-full my-5 px-5 py-2 rounded-[10px] md:w-auto md:my-0 hover:bg-orange-600 transition-colors"
               >
                 Book Now
               </a>

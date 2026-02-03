@@ -8,7 +8,7 @@ export type FleetCardProps = {
 
 export const FleetCard = (props: FleetCardProps) => {
   return (
-    <div className="bg-white box-border caret-transparent border-yellow-400 my-[45px] pt-10 pb-[55px] px-[30px] rounded-md border-2 border-solid">
+    <div className="bg-white box-border caret-transparent border-blue-500 my-[45px] pt-10 pb-[55px] px-[30px] rounded-md border-2 border-solid">
       <div className="box-border caret-transparent">
         <img
           src={props.imageUrl}
@@ -25,7 +25,7 @@ export const FleetCard = (props: FleetCardProps) => {
       <div className="box-border caret-transparent text-center w-full pt-5">
         <a
           href={props.bookingUrl}
-          className="text-white text-[22px] font-bold bg-yellow-400 box-border caret-transparent inline-block leading-[33px] px-5 py-2 rounded-[10px] hover:bg-black"
+          className="text-white text-[22px] font-bold bg-orange-500 box-border caret-transparent inline-block leading-[33px] px-5 py-2 rounded-[10px] hover:bg-orange-600 transition-colors"
         >
           {props.buttonText}
         </a>
